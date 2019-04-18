@@ -9,4 +9,9 @@ def prime?(n)
   else
     number << false
   end
+  if (!number.include?(false) && n > 1)
+    return true
+  else
+    return false
+  end
 end
