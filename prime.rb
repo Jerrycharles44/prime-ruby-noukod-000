@@ -4,4 +4,9 @@ def prime?(n)
   num.shift
   number = []
   num.each |digit|
+  if n % digit !=0
+    number << true
+  else
+    number << false
+  end
 end
